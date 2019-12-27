@@ -36,7 +36,7 @@ footer {
   font-style: italic;
 }
 
-/* Parts of the page */
+/* Parts of the pages */
 
 h2 {
   font-size: 1.4rem;
@@ -63,6 +63,14 @@ nav a {
 
 p {
   margin-bottom: 0.5rem;
+}
+
+#loremP {
+  padding: 0.2rem;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  border-radius: 5px;
 }
 
 table {
