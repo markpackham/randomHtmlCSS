@@ -1,19 +1,69 @@
+/* General layout */
+
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
 }
+
+:root {
+  --main-bg-color: bisque;
+  --main-color: #333;
+}
+
+/* Main page sections */
 
 body {
   margin: 1.5rem;
+  font-size: 1rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: var(--main-color);
+  background-color: var(--main-bg-color);
 }
 
 nav,
 footer {
+  font-size: 0.9rem;
   margin: 1rem 0;
+}
+
+.container {
+  padding: 1rem;
+  background-color: burlywood;
+  border-radius: 5px;
 }
 
 footer {
   font-style: italic;
+}
+
+/* Parts of the page */
+
+h2 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+nav a {
+  padding: 0 1rem;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  img {
+    display: none;
+  }
 }
