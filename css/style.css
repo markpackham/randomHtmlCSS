@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  margin: 1.5rem;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+nav,
+footer {
+  margin: 1rem 0;
+}
+
+footer {
+  font-style: italic;
+}
