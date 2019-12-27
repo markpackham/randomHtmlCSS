@@ -48,6 +48,10 @@ a {
   color: darkblue;
 }
 
+a:visited {
+  color: blueviolet;
+}
+
 a:hover {
   font-weight: bold;
   color: darkcyan;
@@ -57,13 +61,67 @@ nav a {
   padding: 0 1rem;
 }
 
-img {
+p {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+}
+
+img,
+.gradient {
   border-radius: 5px;
+}
+
+.unnecessaryArea {
+  margin-top: 1.4rem;
+}
+
+.gradient {
+  margin-top: 1rem;
+  height: 2rem;
+  background-image: linear-gradient(bisque, burlywood);
+}
+
+.comicSans {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+}
+/* Only focus on modern browsers at the moment, can use bundlers later to support older versions */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
   img {
+    display: none;
+  }
+  table {
     display: none;
   }
 }
