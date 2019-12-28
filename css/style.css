@@ -7,28 +7,40 @@
 
 :root {
   --main-bg-color: bisque;
+  --secondary-bg-color: burlywood;
   --main-color: #333;
 }
 
 /* Main page sections */
 
 body {
-  margin: 1.5rem;
+  margin: rem;
   font-size: 1rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: var(--main-color);
   background-color: var(--main-bg-color);
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: var(--secondary-bg-color);
+  padding: 0.3rem;
+}
+
 nav,
 footer {
   font-size: 0.9rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
+}
+
+header {
+  padding: 1rem;
 }
 
 .container {
   padding: 1rem;
-  background-color: burlywood;
+  background-color: var(--secondary-bg-color);
   border-radius: 5px;
   box-shadow: 2px 2px #999;
 }
