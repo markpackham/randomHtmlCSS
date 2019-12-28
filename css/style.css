@@ -141,6 +141,13 @@ img,
   content: url(/images/sadFace.png);
 }
 
+.nothingToSee {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  z-index: -1000;
+}
+
 /* Animation */
 .fade-in {
   animation: fadeIn ease 5s;
