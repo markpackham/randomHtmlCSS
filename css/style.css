@@ -43,6 +43,10 @@ h2 {
   margin: 0.5rem 0;
 }
 
+.techSkills {
+  margin-top: 1rem;
+}
+
 a {
   text-decoration: none;
   color: darkblue;
@@ -63,6 +67,17 @@ nav a {
 
 p {
   margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1rem;
+  list-style: square;
+}
+
+li {
+  font-size: 0.9rem;
+  font-family: Tahoma, Geneva, sans-serif;
+  padding-bottom: 0.3rem;
 }
 
 #loremP {
