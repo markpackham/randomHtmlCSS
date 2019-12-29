@@ -14,7 +14,7 @@
 /* Main page sections */
 
 body {
-  margin: rem;
+  margin: 1rem;
   font-size: 1rem;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: var(--main-color);
