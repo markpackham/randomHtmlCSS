@@ -145,6 +145,11 @@ img,
   background-image: linear-gradient(bisque, burlywood, limegreen);
 }
 
+.gradient:last-child {
+  margin-top: 0;
+  opacity: 0.5;
+}
+
 .comicSans {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   cursor: cell;
