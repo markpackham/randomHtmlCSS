@@ -147,6 +147,14 @@ img,
   border-radius: 5px;
 }
 
+.typing {
+  margin-top: 1.5rem;
+}
+
+.typing img {
+  width: 70%;
+}
+
 .unnecessaryArea {
   margin-top: 1.4rem;
 }
@@ -204,7 +212,9 @@ img,
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
-  img {
+  img,
+  table,
+  .typing {
     display: none;
   }
   table {
